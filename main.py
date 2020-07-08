@@ -1,14 +1,13 @@
 import os
 from PIL import Image, ImageFilter
 
-
 # path input and ouput
 
 path_img_folder = "images/"
 output_folder = "png image/"
 
 
-# check is png image/exists if not created
+# check if png image/exists if not created
 
 if not os.path.exists(output_folder):
     os.mkdir(output_folder)
