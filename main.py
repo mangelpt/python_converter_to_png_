@@ -2,7 +2,7 @@ import os
 from PIL import Image, ImageFilter
 
 
-# path
+# path input and ouput
 
 path_img_folder = "images/"
 output_folder = "png image/"
